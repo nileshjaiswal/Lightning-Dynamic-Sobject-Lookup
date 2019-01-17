@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <div class="slds-p-around_xx-large">
+        <div>Developed by - Nilesh Jaiswal</div>
+        <div>Lookup to Account object search in All</div>
+        <c:cmp_sObjectLookup sObjectAPIName="Account" sObjectLabelName="Accounts"/>
+        <br/><br/><br/><br/> 
+        <div>Lookup to Account object search Accounts where Name starts with "Edge"</div>
+        <c:cmp_sObjectLookup sObjectAPIName="Account" sObjectLabelName="Accounts" whereClause="WHERE Name like 'Edge%'"/>
+    </div>
+</aura:component>

@@ -1,0 +1,1 @@
+<aura:application extends="ltng:outApp" implements="ltng:allowGuestAccess"/>
