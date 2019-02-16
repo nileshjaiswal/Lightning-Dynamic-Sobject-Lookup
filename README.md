@@ -10,3 +10,8 @@ This can be used in Lightning Component for sObject lookup
 ``` 
 <c:cmp_sObjectLookup sObjectAPIName="Account" sObjectLabelName="Accounts" whereClause="WHERE Name like 'Edge%'"/>
 ```
+
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
