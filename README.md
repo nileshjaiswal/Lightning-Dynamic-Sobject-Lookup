@@ -1,4 +1,4 @@
-# Lightning-Dynamic-Sobject-Lookup
+# Lightning Dynamic Sobject Lookup
 This can be used in Lightning Component for sObject lookup 
 
 ## Lookup to Account object search in All
