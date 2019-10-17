@@ -8,7 +8,7 @@
     <aura:attribute name="sObjectId" type="String"  description="It will store the selected object id" />
     <aura:attribute name="toggleLookupMan" type="Boolean" description="" />
     <aura:attribute name="matches" type="object[]" description="The resulting matches returned by the Apex controller." />
-    <aura:registerEvent name="lookupEvent" type="c:evt_sObjectLookup"/> 
+    <!--aura:registerEvent name="lookupEvent" type="c:evt_sObjectLookup"/--> 
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     
     <div class="slds-size_12-of-12 slds-medium-size_12-of-12 slds-large-size_12-of-12">
